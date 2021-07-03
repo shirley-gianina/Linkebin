@@ -1,0 +1,26 @@
+<main>
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Linkebin</h1>
+                <p class="lead text-muted">We welcome you to your people community!</p>
+            </div>
+        </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+                {{#each peoples}}
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="{{picture}}" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                        </img>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+</main>

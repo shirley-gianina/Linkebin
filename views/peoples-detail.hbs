@@ -1,0 +1,21 @@
+{{#with people}}
+<div class="card mt-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{picture}}" width="100%" height="100%" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">{{name}}</h5>
+        <p class="card-text mb-1"><strong>Birthday:</strong> {{dob}}</p>
+        <p class="card-text mb-1"><strong>Email :</strong> {{email}}</p>
+        <p class="card-text mb-1"><strong>Phone :</strong> {{phone}}</p>
+        <p class="card-text mb-1"><strong>Street :</strong> {{street}}</p>
+        <p class="card-text mb-1"><strong>Country: </strong> {{country}}</p>
+        <p class="card-text mb-1"><strong>State :</strong> {{state}}</p>
+        <p class="card-text mb-1"><strong>City :</strong> {{city}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{{/with}}
